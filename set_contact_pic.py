@@ -82,6 +82,7 @@ def set_contact_pic(contact_name, pic_path, offer_change_name=False):
     d = ab.NSData.alloc().initWithBytes_length_(dd, len(dd))
 
     if p.setImageData_(d):
+        raw_input('Before setting picture ')
         print "Success setting picture!"
         _add_to_cache(pic_path)
         address_book.save()

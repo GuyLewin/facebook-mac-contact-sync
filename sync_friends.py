@@ -13,7 +13,6 @@ def main():
 
         contact_pic_path = os.path.join("Friend's Photos", contact_pic)
         set_contact_pic.set_contact_pic(display_name, contact_pic_path)
-        raw_input('enter to continue ')
 
 if __name__ == "__main__":
     main()
