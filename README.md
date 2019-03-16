@@ -4,7 +4,7 @@ It does not get data from Facebook by itself, but expects data formatted by [my 
 
 ## Prerequisites
 Install the required Python packages by running
-```python
+```sh
 pip install -r requirements.txt
 ```
 in this code directory.
@@ -13,7 +13,7 @@ in this code directory.
 1. Configure and run my fork of Ultimate-Facebook-Scraper to get a scraped Facebook directory
 2. Open a shell within that directory
 3. Run:
-```python
+```sh
 python path/to/facebook-mac-contact-sync/sync_friends.py
 ```
 
